@@ -7,7 +7,7 @@ LipSync is an advanced system designed for automatic transcript generation using
 - **Video Preprocessing**: Utilizes TensorFlow and OpenCV for efficient data loading and preprocessing, aligning mouth movements with text annotations.
 - **Deep Learning Architecture**: Employs a Conv3D-based model followed by Bidirectional LSTM layers for robust sequence modeling.
 - **Training and Optimization**: Trained with a custom CTC loss function and optimized using the Adam optimizer. Includes learning rate scheduling and checkpointing to enhance training performance.
-- **Real-Time Predictions**: Capable of recognizing sign language gestures accurately on test videos.
+- **Real-Time Predictions**: Capable of recognizing mouth gestures accurately on test videos.
 
 ## Streamlit Integration
 The project features a Streamlit frontend that provides an interactive interface for users to visualize model predictions in real-time.
